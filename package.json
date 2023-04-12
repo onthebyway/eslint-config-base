@@ -11,12 +11,7 @@
     "lint",
     "eslin",
     "byway",
-    "airbnb",
-    "es6",
-    "es2015",
-    "es2016",
-    "es2017",
-    "es2018"
+    "airbnb"
   ],
   "author": "David M. Rainer <david@byway.at>",
   "license": "ISC",
