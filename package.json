@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-base",
+  "name": "@onthebyway/eslint-config-base",
   "version": "1.0.0",
   "description": "byway eslint config",
   "main": "index.js",
@@ -18,5 +18,13 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onthebyway/eslint-config-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onthebyway/eslint-config-base/issues"
+  },
+  "homepage": "https://github.com/onthebyway/eslint-config-base#readme"
 }
