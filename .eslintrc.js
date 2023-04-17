@@ -26,7 +26,7 @@ module.exports = {
       "error",
       // configure Prettier for ESLint
       {
-        arrowParens: [true, "ban-single-arg-parens"],
+        arrowParens: "always",
         printWidth: 120,
         singleQuote: true,
         trailingComma: "all",
