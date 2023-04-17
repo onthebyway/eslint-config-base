@@ -12,11 +12,13 @@ module.exports = {
   },
   // enabling/disabling/changing level of rules
   rules: {
+    'func-style': [2, 'expression', { allowArrowFunctions: true }],
+    'arrow-body-style': [2, 'as-needed', { requireReturnForObjectLiteral: true }],
     'no-undef': 'error',
     'no-var': 'error',
     'prefer-const': 'error',
     'no-console': 'off',
-    'import/no-default-export': 'warn',
+    'import/no-default-export': 'off',
     'prettier/prettier': [
       'error',
       // configure Prettier for ESLint
