@@ -1,14 +1,13 @@
 module.exports = {
   // eslint-configs
   extends: [
-    'airbnb',
-    'plugin:prettier/recommended',
-    'eslint:recommended',
-    'plugin:import/errors',
-    'plugin:prettier/recommended',
+    "airbnb",
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:prettier/recommended",
   ],
   // eslint-plugins
-  plugins: ['prettier'],
+  plugins: ["prettier"],
   env: {
     browser: true,
     commonjs: true,
@@ -18,19 +17,19 @@ module.exports = {
   },
   // enabling/disabling/changing level of rules
   rules: {
-    'no-undef': 'error',
-    'no-var': 'error',
-    'prefer-const': 'error',
-    'no-console': 'off',
-    'import/no-default-export': 'warn',
-    'prettier/prettier': [
-      'error',
+    "no-undef": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "no-console": "off",
+    "import/no-default-export": "warn",
+    "prettier/prettier": [
+      "error",
       // configure Prettier for ESLint
       {
-        arrowParens: 'avoid',
+        arrowParens: [true, "ban-single-arg-parens"],
         printWidth: 120,
         singleQuote: true,
-        trailingComma: 'all',
+        trailingComma: "all",
         tabWidth: 2,
         singleAttributePerLine: true,
         semi: true,
