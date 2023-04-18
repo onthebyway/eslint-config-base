@@ -23,6 +23,18 @@ module.exports = {
         returnStyle: 'explicit',
       },
     ],
+    // otherwise airbnb config throws import errors
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
+    //
     'prettier/prettier': [
       'error',
       // configure Prettier for ESLint
